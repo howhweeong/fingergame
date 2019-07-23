@@ -98,15 +98,15 @@ return(Math.floor(Math.random()*100%numholes));
 </HEAD>
 
 <BODY>
-<center><h2>Hit-the-Dot</h2></center>
-<center>Test your skill.  How many boxes can you check in 30 seconds?</center>
+
+<center><h2>Finger Agility Game</h2></center>
 <form name="cpanel">
 <center>
 <table cellspacing=3>
 <tr>
-<td><input type="button" name="startstop" value=" Start Game | Stop Game " onClick="play()"></td>
+<td><input type="button" name="startstop" value=" Start Game " onClick="play()"></td>
 <td><pre>    </pre></td>
-<td align=right>Time:</td>
+<td align=right>Time Left:</td>
 <td><input type="text" name="timeleft" size="4" onFocus="this.blur()"></td>
 </tr>
 <tr>
@@ -199,11 +199,5 @@ return(Math.floor(Math.random()*100%numholes));
 <tr><td colspan=10><hr size=1></td>
 </tr></table></center></form>
 
-<center><table cellspacing=3><tr><td><code>
-<p><strong>Instructions:</strong>
-<ol><li>Click on the radio buttons as<BR>
-they are selected randomly by the computer.<BR>
-<li>1 point per hit, minus 1 point per miss.<BR>
-</ol></td></tr></table></center>
 </BODY>
 </HTML>
